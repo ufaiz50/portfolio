@@ -33,8 +33,7 @@
         <div class="main-menu">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a href="#" class="navbar-brand"><img src="./img/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="narbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="narbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -82,7 +81,7 @@
                             <div class="f-flex flex-row flext-warp">
                                 <button type="button" class="btn button primary-button mr-4 text-uppercase">hire
                                     me</button>
-                                <button type="button" class="btn button secondary-button text-uppercase">Get cv</button>
+                                <a href="CuriculumVitae.pdf" target="_blank"><button type="button" class="btn button secondary-button text-uppercase">Get cv</button></a>
                             </div>
                         </div>
                     </div>
@@ -122,7 +121,7 @@
                                 here
                             </p>
                         </div>
-                        <button type="button" class="btn button primary-button text-uppercase">Download CV</button>
+                        <a href="/" download="CuriculumVitae.pdf"><button type=" button" class="btn button primary-button text-uppercase">Download CV</button></a>
                     </div>
                 </div>
             </div>
